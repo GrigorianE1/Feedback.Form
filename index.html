@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="contain"
+    <header class="header">
+    <h1 id="title" class="text-center">Survey Form</h1>
+    <p ID="description" class="description text-center">Thank you for taking the time to help us improve the platform</p>
+</header>
+<form id="survey-form">
+  <div class="form-group">
+    <label id="name-label" for="name">Name</label>
+    <input type="text" name="name" id="name" class="form control" placeholder="Add your name here" required>
+    </div>
+
+     <div class="form-group">
+    <label id="email-label" for="email">Email</label>
+    <input type="email" name="email" id="email" class="form control" placeholder="Add your email address here" required>
+    </div>
+         <div class="form-group">
+    <label id="number-label" for="number">Age<span class="clue"> (optional)</span></label>
+    <input type="number" name="age" id="number" min="10" max="99" class="for m-control" placeholder="age"></div>
+    <div class="Form-group">
+      <p>Please select an option</p>
+      <select id="dropdown" name="role" class="form-control" required>
+<option disables selected value>Select the best option</option>
+<option value="Option1">Option 1</option>
+<option value="Option2">Option 2</option>
+<option value="Option3">Option 3</option>
+<option value="Option4">Option 4</option>
+<option value="Option5">Option 5</option>
+      </select></div>
+      <div class="form-group">
+        <p>Would you press one of these buttons?</p><label>
+<input name="user-recomend" value="definitely" type="radio" class="input-radio" checked>Yes</label>
+<input name="user-recomend" value="definitely" type="radio" class="input-radio">No</label>
+<input name="user-recomend" value="definitely" type="radio" class="input-radio">Maybe</label>
+</div>
+<div class="form-group">
+  <p>Can a woodchuck chuck wood?</p>
+  <select id="wood-chuck" name="woodchuck" class="form-control" required>
+    <option disabled selected value>Select option</option>
+    <option value="Woodchuck1">Woodchuck1</option>
+    <option value="Woodchuck2">Woodchuck2</option>
+    <option value="Woodchuck3">Woodchuck3</option>
+    <option value="Woodchuck4">Woodchuck4</option>
+    </select>
+    </div>
+    <div class="form-group">
+      <p>
+        Whats your favorite thing? 
+        <span class="clue">(check all that apply)
+          </p>
+          <label>
+            <input name="favorite" value="love" type="checkbox" class="input-checkbox">love</label>
+            <input name="favorite" value="pizza" type="checkbox" class="input-checkbox">pizza</label>
+            <input name="favorite" value="video-games" type="checkbox" class="input-checkbox">Video games</label>
+            <input name="favorite" value="television" type="checkbox" class="input-checkbox">television</label>
+            <input name="favorite" value="podcasts" type="checkbox" class="input-checkbox">podcasts</label>
+            <input name="favorite" value="chicken-wings" type="checkbox" class="input-checkbox">chicken wings</label>
+            <input name="favorite" value="coding" type="checkbox" class="input-checkbox">coding</label>
+            <input name="favorite" value="texting" type="checkbox" class="input-checkbox">texting</label>
+            <input name="favorite" value="chillin" type="checkbox" class="input-checkbox">chillin</label>
+            </div>
+            <div class="form-group">
+              <p>Anything else you like?</p>
+              <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your thoughts here..."></textarea></div>
+              <div class="form-group">
+                <button type="submit" id="submit" class="submit-button"> Submit</button>
+                </div>
+                </form>
+                </div>
+                </body>
+                <html>
+
+            
